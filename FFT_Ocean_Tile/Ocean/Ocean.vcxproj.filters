@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppOcean.cpp" />
+    <ClCompile Include="FFTWrapper.cpp">
+      <Filter>FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanTile.cpp" />
+    <ClCompile Include="hr_time.cpp">
+      <Filter>HR_Time</Filter>
+    </ClCompile>
+    <ClCompile Include="CS_Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FFTWrapper.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanTile.h" />
+    <ClInclude Include="hr_time.h">
+      <Filter>HR_Time</Filter>
+    </ClInclude>
+    <ClInclude Include="CS_Utils.h" />
+    <ClInclude Include="Configurations.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FFT">
+      <UniqueIdentifier>{494d7138-619e-4c51-ae5e-5fb24b7e914a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HR_Time">
+      <UniqueIdentifier>{28fc2ab1-c181-4769-b953-09ac0db42793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
